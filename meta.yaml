@@ -1,0 +1,18 @@
+package:
+  name: convert
+  version: '0.1.1'
+source:
+  path: dist
+build:
+  script_env:
+    - PYBUILD
+requirements:
+  build:
+  - python
+  - setuptools
+  - pandas
+  run:
+  - python
+about:
+  license: MIT License
+  summary: automatic string conversion library
